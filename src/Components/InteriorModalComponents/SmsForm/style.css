@@ -1,0 +1,19 @@
+#backBtn {
+    width: 80px;
+    /* text-align: center; */
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.btn.btn-sm .fas {
+    color: #0275d8;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+input, textarea.form-control {
+    font-size: 14px;
+}

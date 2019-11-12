@@ -1,0 +1,33 @@
+.btn .far {
+    font-size: 36px;
+}
+
+.btn p {
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#emailBtn {
+    border: 3px solid #5cb85c;
+}
+
+/* #emailBtn p {
+    color: #5cb85c;
+} */
+
+#emailBtn i {
+    color: #5cb85c;
+}
+
+#smsBtn {
+    border: 3px solid #0275d8;
+}
+
+/* #smsBtn p {
+    color: #0275d8;
+} */
+
+#smsBtn i {
+    color: #0275d8;
+}

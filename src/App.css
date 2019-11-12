@@ -67,7 +67,7 @@ outline: 1px solid slategrey;
   padding-left: 15px;
   padding-right: 15px;
   border-top: 1px solid darkslategray;
-  border-right: 1px solid darkslategray;
+  /* border-right: 1px solid darkslategray; */
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
 }
 
@@ -83,4 +83,25 @@ outline: 1px solid slategrey;
   color: darkslategray;
   margin-bottom: 0px;
   margin-left: 5px;
+}
+
+h4 {
+  /* font-size: 24px; */
+  font-weight: 400;
+  color: darkslategray;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  border-top: 1px solid darkslategray;
+}
+
+.btn.btn-md.btn-success {
+  width: 100%;
+}
+
+/* .modal-content {
+  height: 250px;
+} */
+
+.modal-content h4 {
+  border-top: none;
 }

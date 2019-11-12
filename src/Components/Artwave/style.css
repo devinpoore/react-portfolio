@@ -1,6 +1,5 @@
 hr {
     margin-top: 5px;
-    /* background-color: black; */
 }
 
 i {
@@ -9,16 +8,34 @@ i {
 }
 
 #artwaveContent {
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 13px;
     text-align: justify;
-    /* color: white; */
+    /* overflow: auto; */
 }
 
-/* .linkIcons {
-    float: left;
-    margin: 2px;
-    margin-top: 4px;
-    margin-left: 10px;
+/* #artwaveContent::-webkit-scrollbar {
+    width: .5em;
+  }
+  
+#artwaveContent::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#artwaveContent::-webkit-scrollbar-thumb {
+background-color: darkslategray;
+outline: 1px solid slategrey;
 } */
+
+#artwaveLogin, #artwaveReg {
+    width: 100%;
+    box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+}
+
+#artwaveReg {
+    width: 100%;
+}
+
+#artwave {
+    height: 100%;
+}
