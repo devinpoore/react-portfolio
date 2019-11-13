@@ -8,7 +8,7 @@ function SmsForm(props) {
 
 
             <button id="backBtn" className="btn btn-sm" onClick={() => props.back()}><i class="fas fa-arrow-left"></i></button>
-            <h4>SMS Form</h4>
+            <h4 id="smsHeader">SMS Form</h4>
             <hr />
 
             <form>
@@ -28,7 +28,7 @@ function SmsForm(props) {
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="It is but a shadow and a thought that you love. I cannot give you what you seek."></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tis but a shadow and a thought that you love - I cannot give you what you seek..."></textarea>
                 </div>
             </form>
 

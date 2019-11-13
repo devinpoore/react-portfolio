@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react";
+
+import api from "../../../api/api.js";
+
+import "./style.css";
 
 export default function EmailForm(props) {
     return (
         <div>
-            <button id="backBtn" className="btn btn-sm" onClick={() => props.back()}><i class="fas fa-arrow-left"></i></button>
-            <h4>Email Form</h4>
+            <button id="emailBackBtn" className="btn btn-sm" onClick={() => props.back()}><i id="emailArrow" class="fas fa-arrow-left"></i></button>
+            <h4 id="emailHeader">Email Form</h4>
             <hr />
 
             <form>
@@ -24,8 +28,10 @@ export default function EmailForm(props) {
 
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="They're takeing the hobbits to Isengard"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="They're taking the hobbits to Isengard!"></textarea>
                 </div>
+
+                <button className="btn btn-sm">Send</button>
             </form>
         </div>
     )
