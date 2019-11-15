@@ -1,7 +1,6 @@
 {
   "homepage": "https://www.devinpoore.tech/",
   "name": "react-portfolio",
-  "homepage": "https://devinpoore.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
