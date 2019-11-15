@@ -31,8 +31,11 @@ class App extends React.Component {
       <div className="container">
         <hr id="topHr"/>
         <header>
-          <h1>devin poore - portfolios.tech/prototype_0.0</h1>
+          {/* <h1>devin poore - portfolios.tech/prototype_0.0</h1> */}
+          <h1>welcome to my portfolio <span role="img" aria-label="smiley emoji">🙂</span></h1>
         </header>
+        <hr/>
+        <h5>**this portfolio is currently under construction</h5>
         <hr/>
   
         <div className="row">
@@ -59,7 +62,7 @@ class App extends React.Component {
             <div id="insideAbout">
 
               <div id="insideAbout2">
-                <p>about</p>
+                <p>about me</p>
                 <hr/>
                 <button className="btn btn-md btn-success" data-toggle="modal" data-target="#contactModal">Contact Me</button>
 
