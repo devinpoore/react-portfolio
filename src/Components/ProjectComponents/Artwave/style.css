@@ -8,9 +8,11 @@ i {
 }
 
 #artwaveContent {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
     text-align: justify;
+    line-height: 1.75;
     /* overflow: auto; */
 }
 

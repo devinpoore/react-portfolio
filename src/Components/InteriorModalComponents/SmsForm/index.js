@@ -75,7 +75,7 @@ class SmsForm extends React.Component {
                         <textarea name="messageBody" value={this.state.messageBody} onChange={this.handleInputChange} class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tis but a shadow and a thought that you love - I cannot give you what you seek..."></textarea>
                     </div>
     
-                    <button type="submit" className="btn btn-sm" onClick={this.sendSms}>Send</button>
+                    <button type="submit" className="btn btn-md btn-block smsSend" onClick={this.sendSms}>Send</button>
     
                 </form>
     

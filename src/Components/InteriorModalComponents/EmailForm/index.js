@@ -72,7 +72,7 @@ class EmailForm extends React.Component {
                         <textarea name="messageBody" value={this.state.messageBody} onChange={this.handleInputChange} class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="They're taking the hobbits to Isengard!"></textarea>
                     </div>
     
-                    <button type="submit" className="btn btn-sm" onClick={this.sendEmail}>Send</button>
+                    <button type="submit" className="btn btn-md btn-block btn-success" onClick={this.sendEmail}>Send</button>
                 </form>
             </div>
         )

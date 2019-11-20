@@ -1,0 +1,7 @@
+#aboutDiv p {
+    font-size: 14px;
+    font-family: monospace;
+    text-align: justify;
+    padding-right: 10px;
+    color: gray;
+}

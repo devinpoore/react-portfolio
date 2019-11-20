@@ -1,20 +1,20 @@
 .btn.btn-md {
-  font-size: 14px;
+  /* font-size: 14px; */
   padding: 5px;
 }
 
 button {
-  width: 90%;
+  /* width: 90%; */
 }
 
 #projectDesc {
   height: 85vh;
-  overflow: auto;
+  /* overflow: auto; */
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
-  border-top: 1px solid #802424;
+  margin-bottom: 15px;
 }
 
-#projectDesc::-webkit-scrollbar {
+/* #projectDesc::-webkit-scrollbar {
   width: .5em;
 }
 
@@ -22,6 +22,26 @@ button {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 }
 #projectDesc::-webkit-scrollbar-thumb {
+background-color: darkslategray;
+outline: 1px solid slategrey;
+} */
+
+#projectContent {
+  /* height: 85vh; */
+  height: 90%;
+  overflow: auto;
+  /* box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308); */
+  /* margin-bottom: 15px; */
+}
+
+#projectContent::-webkit-scrollbar {
+  width: .5em;
+}
+
+#projectContent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#projectContent::-webkit-scrollbar-thumb {
 background-color: darkslategray;
 outline: 1px solid slategrey;
 }
@@ -36,15 +56,15 @@ outline: 1px solid slategrey;
 }
 
 #cp, #cp2 {
-  color: darkgreen;
+  color: #006400;
 }
 
 #spawtted {
-  color: navy;
+  color: #000080;
 }
 
 #cc {
-  color: orange;
+  color: #ffa500;
 }
 
 #aw:hover, #aw2:hover {
@@ -63,6 +83,10 @@ outline: 1px solid slategrey;
   border: solid 1px orange;
 }
 
+#pf:hover {
+  border: solid 1px black;
+}
+
 #insideAbout {
   padding-left: 15px;
   padding-right: 15px;
@@ -73,17 +97,23 @@ outline: 1px solid slategrey;
 
 #insideAbout2 {
   width: 100%;
-  height: 500px;
+  /* height: 400px; */
+  height: 40vh;
+  overflow: auto;
 }
 
-#insideAbout2 p {
-  /* text-align: center; */
+#aboutText {
+  /* overflow: auto; */
+}
+
+/* #insideAbout2 p {
+  text-align: center;
   font-size: 24px;
   font-weight: 400;
   color: darkslategray;
   margin-bottom: 0px;
   margin-left: 5px;
-}
+} */
 
 h4 {
   /* font-size: 24px; */
@@ -91,6 +121,11 @@ h4 {
   color: darkslategray;
   margin-bottom: 0px;
   margin-left: 5px;
+  padding-top: 7px;
+  /* border-top: 1px solid darkslategray; */
+}
+
+#projectsHeader {
   border-top: 1px solid darkslategray;
 }
 
@@ -104,4 +139,21 @@ h4 {
 
 .modal-content h4 {
   border-top: none;
+}
+
+#projectButtons {
+  margin-bottom: 15px;
+}
+
+.bioButtons {
+  margin-bottom: 15px;
+}
+
+#contactBtn {
+  margin-top: 15px;
+}
+
+#projectContent p {
+  font-family: 'Courier New', Courier, monospace;
+  padding-right: 10px;
 }

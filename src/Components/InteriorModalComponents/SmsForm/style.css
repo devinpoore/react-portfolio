@@ -29,3 +29,8 @@ input {
 input, textarea.form-control {
     font-size: 14px;
 }
+
+.btn.btn-md.smsSend {
+    background-color: #0275d8;
+    color: white;
+}
