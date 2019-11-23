@@ -2,42 +2,40 @@ hr {
     margin-top: 5px;
 }
 
-i {
-    margin: 5px;
-    font-size: 20px;
-}
-
 #artwaveContent {
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 12px;
     text-align: justify;
-    line-height: 1.75;
-    /* overflow: auto; */
+    /* padding-right: 15px; */
 }
 
-/* #artwaveContent::-webkit-scrollbar {
-    width: .5em;
-  }
-  
-#artwaveContent::-webkit-scrollbar-track {
--webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+.carousel {
+    padding-right: 15px;
 }
 
-#artwaveContent::-webkit-scrollbar-thumb {
-background-color: darkslategray;
-outline: 1px solid slategrey;
-} */
-
-#artwaveLogin, #artwaveReg {
-    width: 100%;
-    box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+.carousel-inner {
+    height: 340px;
+    /* background-color: darkgray; */
+    /* background-color: #802424; */
+    border-radius: 15px;
 }
 
-#artwaveReg {
-    width: 100%;
+#artwaveCarousel .carousel-inner {
+    background-color: #802424;
 }
 
-#artwave {
-    height: 100%;
+.carousel-item img {
+    max-width: 95%;
+    height: 300px;
+    margin-top: 10px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+ol {
+    margin-bottom: 0px;
+}
+
+#underCarouselRule {
+    margin-top: 15px;
 }

@@ -1,37 +1,21 @@
-.btn.btn-md {
-  /* font-size: 14px; */
-  padding: 5px;
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
 }
 
-button {
-  /* width: 90%; */
+.btn.btn-md {
+  padding: 5px;
 }
 
 #projectDesc {
   height: 85vh;
-  /* overflow: auto; */
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
   margin-bottom: 15px;
 }
 
-/* #projectDesc::-webkit-scrollbar {
-  width: .5em;
-}
-
-#projectDesc::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-#projectDesc::-webkit-scrollbar-thumb {
-background-color: darkslategray;
-outline: 1px solid slategrey;
-} */
-
 #projectContent {
-  /* height: 85vh; */
   height: 90%;
   overflow: auto;
-  /* box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308); */
-  /* margin-bottom: 15px; */
 }
 
 #projectContent::-webkit-scrollbar {
@@ -40,10 +24,12 @@ outline: 1px solid slategrey;
 
 #projectContent::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
 }
 #projectContent::-webkit-scrollbar-thumb {
-background-color: darkslategray;
-outline: 1px solid slategrey;
+  background-color: darkslategray;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
 }
 
 #topHr {
@@ -91,38 +77,37 @@ outline: 1px solid slategrey;
   padding-left: 15px;
   padding-right: 15px;
   border-top: 1px solid darkslategray;
-  /* border-right: 1px solid darkslategray; */
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
 }
 
 #insideAbout2 {
   width: 100%;
-  /* height: 400px; */
   height: 40vh;
   overflow: auto;
 }
 
-#aboutText {
-  /* overflow: auto; */
+#insideAbout2::-webkit-scrollbar {
+  width: .5em;
 }
 
-/* #insideAbout2 p {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  color: darkslategray;
-  margin-bottom: 0px;
-  margin-left: 5px;
-} */
+#insideAbout2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+#insideAbout2::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+background-color: darkslategray;
+outline: 1px solid slategrey;
+}
 
 h4 {
-  /* font-size: 24px; */
   font-weight: 400;
   color: darkslategray;
   margin-bottom: 0px;
   margin-left: 5px;
   padding-top: 7px;
-  /* border-top: 1px solid darkslategray; */
 }
 
 #projectsHeader {
@@ -132,10 +117,6 @@ h4 {
 .btn.btn-md.btn-success {
   width: 100%;
 }
-
-/* .modal-content {
-  height: 250px;
-} */
 
 .modal-content h4 {
   border-top: none;
@@ -149,11 +130,23 @@ h4 {
   margin-bottom: 15px;
 }
 
+.bioBtn {
+  background-color: darkslategray;
+  color: white;
+}
+
 #contactBtn {
   margin-top: 15px;
 }
 
 #projectContent p {
   font-family: 'Courier New', Courier, monospace;
-  padding-right: 10px;
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.btn {
+  font-weight: 500;
+  border-radius: 15px;
 }

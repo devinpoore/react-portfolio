@@ -6,6 +6,9 @@ import './App.css';
 import Artwave from "./Components/ProjectComponents/Artwave";
 import Artwave2 from "./Components/ProjectComponents/Artwave2";
 import Carpoolify from "./Components/ProjectComponents/Carpoolify";
+import Spawtted from "./Components/ProjectComponents/Spawtted";
+import Chorechat from "./Components/ProjectComponents/Chorechat";
+import Portfolio from "./Components/ProjectComponents/Portfolio";
 
 // Import BIO Components
 import FullBio from "./Components/FullBio";
@@ -17,7 +20,7 @@ import TitleLinks from "./Components/ProjectComponents/TitleLinks";
 
 class App extends React.Component {
   state = {
-    selected: "artwave",
+    selected: "carpoolify",
     bio: "short",
     projectInfo: require("./Components/ProjectComponents/projectInfo.json"),
     buttonInfo: []
@@ -52,12 +55,20 @@ class App extends React.Component {
   }
 
   determineProjectComponent = () => {
-    if (this.state.selected === "artwave") {
+    const project = this.state.selected;
+
+    if (project === "artwave") {
       return <Artwave />
-    } else if (this.state.selected === "artwave2") {
+    } else if (project === "artwave2") {
       return <Artwave2 />
-    } else if (this.state.selected === "carpoolify") {
+    } else if (project === "carpoolify") {
       return <Carpoolify />
+    } else if (project === "spawtted") {
+      return <Spawtted />
+    } else if (project === "chorechat") {
+      return <Chorechat />
+    } else if (project === "portfolio") {
+      return <Portfolio />
     }
   }
 
@@ -66,13 +77,9 @@ class App extends React.Component {
       <div className="container">
         <hr id="topHr" />
         <header>
-          {/* <h1>devin poore - portfolios.tech/prototype_0.0</h1> */}
           <h1>devin poore - portfolio</h1>
-          {/* <h1>welcome to my portfolio <span role="img" aria-label="smiley emoji">🙂</span></h1> */}
         </header>
         <hr />
-        {/* <h5>**this portfolio is currently under construction</h5>
-        <hr /> */}
 
         <div className="row">
 
@@ -85,9 +92,9 @@ class App extends React.Component {
             })} */}
 
             <button id="aw" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="artwave">artwave</button>
-            <button id="aw2" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="artwave2">artwave 2.0</button>
+            {/* <button id="aw2" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="artwave2">artwave 2.0</button> */}
             <button id="cp" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="carpoolify">carpoolify</button>
-            <button id="cp2" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="carpoolify2">carpoolify 2.0</button>
+            {/* <button id="cp2" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="carpoolify2">carpoolify 2.0</button> */}
             <button id="spawtted" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="spawtted">spawtted</button>
             <button id="cc" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="chorechat">chorechat</button>
             <button id="pf" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="portfolio">portfolio</button>
@@ -105,20 +112,23 @@ class App extends React.Component {
 
 
           {/* ABOUT */}
+          {/* TODO: This portion needs some div refactoring - CSS in general needs to be cleaned up */}
           <div id="about" className="col-md-4">
             <div id="insideAbout">
 
               <h4>about me</h4>
+              <i class="fab fa-github"></i>
+              <i class="fab fa-linkedin"></i>
               <hr />
 
               <div className="row bioButtons">
 
                 <div className="col-md-6">
-                  <button className="btn btn-md btn-block" value="short" onClick={this.toggleBio}>Elevator Pitch</button>
+                  <button className="btn btn-md btn-block bioBtn" value="short" onClick={this.toggleBio}>Elevator Pitch</button>
                 </div>
 
                 <div className="col-md-6">
-                  <button className="btn btn-md btn-block" value="full" onClick={this.toggleBio}>Full Bio</button>
+                  <button className="btn btn-md btn-block bioBtn" value="full" onClick={this.toggleBio}>Full Bio</button>
                 </div>
 
               </div>
