@@ -6,7 +6,8 @@
         "frontGithubLink": "https://github.com/andrewjoung/ARTWAVE",
         "backGithubLink": "https://github.com/andrewjoung/ARTWAVE-API",
         "deployedProjectLink": "https://andrewjoung.github.io/ARTWAVE/#/",
-        "hexCode": "#802424"
+        "hexCode": "#802424",
+        "techUsed": ["node", "react", "bootstrap"]
     },
     "artwave2": {
         "title": "artwave 2.0",
@@ -15,7 +16,8 @@
         "frontGithubLink": "https://github.com/devinpoore/artwave2.0",
         "backGithubLink": "https://github.com/devinpoore/api-artwave2.0",
         "deployedProjectLink": "",
-        "hexCode": "#802424"
+        "hexCode": "#802424",
+        "techUsed": ["node", "react", "bootstrap"]
     },
     "carpoolify": {
         "title": "carpoolify",
@@ -24,7 +26,8 @@
         "frontGithubLink": "https://github.com/andrewjoung/carpoolify",
         "backGithubLink": "",
         "deployedProjectLink": "https://andrewjoung.github.io/carpoolify/",
-        "hexCode": "#006400"
+        "hexCode": "#006400",
+        "techUsed": ["html", "js", "bootstrap"]
     },
     "carpoolify2": {
         "title": "carpoolify 2.0",
@@ -33,7 +36,8 @@
         "frontGithubLink": "https://github.com/devinpoore/carpoolify-mern",
         "backGithubLink": "https://github.com/devinpoore/api-carpoolify-mern",
         "deployedProjectLink": "",
-        "hexCode": "#006400"
+        "hexCode": "#006400",
+        "techUsed": ["node", "react", "bootstrap"]
     },
     "spawtted": {
         "title": "spawtted",
@@ -42,7 +46,8 @@
         "frontGithubLink": "https://github.com/devinpoore/sPawtted",
         "backGithubLink": "",
         "deployedProjectLink": "https://spawtted.herokuapp.com/",
-        "hexCode": "#000080"
+        "hexCode": "#000080",
+        "techUsed": ["node", "js", "bootstrap"]
     },
     "chorechat": {
         "title": "chorechat",
@@ -51,7 +56,8 @@
         "frontGithubLink": "",
         "backGithubLink": "https://github.com/devinpoore/chorechat",
         "deployedProjectLink": "",
-        "hexCode": "#ffa500"
+        "hexCode": "#ffa500",
+        "techUsed": ["node"]
     },
     "portfolio": {
         "title": "portfolio",
@@ -60,6 +66,7 @@
         "frontGithubLink": "https://github.com/devinpoore/react-portfolio",
         "backGithubLink": "https://github.com/devinpoore/api-react-portfolio",
         "deployedProjectLink": "",
-        "hexCode": "#000000"
+        "hexCode": "#000000",
+        "techUsed": ["node", "react", "bootstrap"]
     }
 }

@@ -116,9 +116,16 @@ class App extends React.Component {
           <div id="about" className="col-md-4">
             <div id="insideAbout">
 
-              <h4>about me</h4>
-              <i class="fab fa-github"></i>
-              <i class="fab fa-linkedin"></i>
+              <h4 id="aboutTitle">about me</h4>
+
+                <a title="My Github" href="https://github.com/devinpoore" target="_blank" rel="noopener noreferrer">
+                  <i class="personalLink fab fa-github"></i>
+                </a>
+
+                <a title="My LinkedIn" href="https://www.linkedin.com/in/devinpoore" target="_blank" rel="noopener noreferrer">
+                  <i class="personalLink fab fa-linkedin"></i>
+                </a>
+
               <hr />
 
               <div className="row bioButtons">

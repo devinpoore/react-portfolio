@@ -16,3 +16,17 @@ i {
     /* color: #802424; */
 }
 
+.techUsed {
+    /* margin-top: 10px; */
+    font-size: 20px;
+    color: lightgray;
+}
+
+.techUsed:hover {
+    color: gray;
+}
+
+#techUsedDiv {
+    margin-top: 10px;
+}
+
