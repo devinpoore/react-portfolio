@@ -1,10 +1,43 @@
 import React from 'react';
 
-
+import "./style.css";
 
 export default function Chorechat() {
     return (
         <div>
+
+            <div id="chorechatCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#chorechatCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#chorechatCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner text-center">
+
+                    <div className="carousel-item active">
+                        <img src={require("../../../Images/Chorechat/cc_alert.png")} alt="artwave login" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Chorechat/cc_response.png")} alt="artwave registration with error" />
+                    </div>
+
+                    <a class="carousel-control-prev" href="#chorechatCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#chorechatCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <hr id="underCarouselRule"/>
 
             <h6>Background</h6>
             <p>
@@ -21,7 +54,7 @@ export default function Chorechat() {
                 They said yes. So I built one.
             </p>
 
-            <hr/>
+            <hr />
 
             <h6>Project Description</h6>
             <p>
@@ -39,7 +72,7 @@ export default function Chorechat() {
                 specified in the object instantiation.
             </p>
 
-            <hr/>
+            <hr />
 
             <h6>Lessons Learned</h6>
             <p>

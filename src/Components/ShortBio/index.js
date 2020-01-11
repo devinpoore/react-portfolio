@@ -7,7 +7,7 @@ export default function ShortBio() {
         <div>
             <p>
                 &nbsp;&nbsp;
-                Seattle based developer with a passion for the craft of software development. I'm intent on building
+                Avid cyclist and Seattle based developer with a passion for the craft of software development. I'm intent on building
                 solutions that address and solve the problems of today worth solving - everything from empowering sustainability through
                 technology to automating mundane, menial, or mind-numbing tasks.
                 

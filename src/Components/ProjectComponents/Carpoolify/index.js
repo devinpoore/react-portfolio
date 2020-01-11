@@ -65,7 +65,7 @@ export default function Carpoolify() {
 
             <h6>Background</h6>
             <p>
-                Carpoolify is the result of the first group project of the UW bootcamp I attened this past summer.
+                Carpoolify is the result of the first group project of the UW bootcamp I attended this past summer.
                 I worked with 2 other talented developers in the class, <a href="https://www.linkedin.com/in/andrew-joung-4945b313a/" target="_blank" rel="noopener noreferrer">Andrew Joung</a> and <a href="https://www.linkedin.com/in/scott-willis-1b600a178/" target="_blank" rel="noopener noreferrer">Scott Willis</a>, to build this
                 application. Independently of each other, Scott and I had both had the idea to try our hand at building a carpool
                 app for Project 1 so that's what we decided to do!

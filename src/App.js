@@ -20,7 +20,7 @@ import TitleLinks from "./Components/ProjectComponents/TitleLinks";
 
 class App extends React.Component {
   state = {
-    selected: "carpoolify",
+    selected: "artwave",
     bio: "short",
     projectInfo: require("./Components/ProjectComponents/projectInfo.json"),
     buttonInfo: []
@@ -97,7 +97,7 @@ class App extends React.Component {
             {/* <button id="cp2" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="carpoolify2">carpoolify 2.0</button> */}
             <button id="spawtted" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="spawtted">spawtted</button>
             <button id="cc" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="chorechat">chorechat</button>
-            <button id="pf" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="portfolio">portfolio</button>
+            {/* <button id="pf" className="btn btn-md btn-block" onClick={this.projectTabClicked} value="portfolio">portfolio</button> */}
 
           </div>
 

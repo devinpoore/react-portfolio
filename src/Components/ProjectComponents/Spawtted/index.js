@@ -1,17 +1,62 @@
-import React from 'react'
+import React from 'react';
+
+import "./style.css";
 
 export default function Spawtted() {
     return (
         <div>
-            {/* <p>Spawtted summary</p> */}
+            <div id="spawttedCarousel" class="carousel slide" data-ride="carousel">
 
-            <hr/>
-            <p>
-                **NOTE: for some reason, the deployed link isn't displaying the missing pet postings on the map, though they still appear
-                in the side list - I'll try to investigate what the issue is and get it solved as, at the time of our presentation, it was
-                working
-            </p>
-            <hr/>
+                <ol class="carousel-indicators">
+                    <li data-target="#spawttedCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#spawttedCarousel" data-slide-to="1"></li>
+                    <li data-target="#spawttedCarousel" data-slide-to="2"></li>
+                    <li data-target="#spawttedCarousel" data-slide-to="3"></li>
+                    <li data-target="#spawttedCarousel" data-slide-to="4"></li>
+                    <li data-target="#spawttedCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <div class="carousel-inner text-center">
+
+                    <div className="carousel-item active">
+                        <img src={require("../../../Images/Spawtted/spawtted_home.png")} alt="artwave login" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Spawtted/listing_one.png")} alt="artwave registration with error" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Spawtted/listing_two.png")} alt="artwave login" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Spawtted/report_lost_pet.png")} alt="artwave registration with error" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Spawtted/report_lost_pet_two.png")} alt="artwave login" />
+                    </div>
+
+                    <div className="carousel-item">
+                        <img src={require("../../../Images/Spawtted/cloudinary.png")} alt="artwave registration with error" />
+                    </div>
+
+                    <a class="carousel-control-prev" href="#spawttedCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#spawttedCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <hr id="underCarouselRule" />
 
             <h6>Background</h6>
             <p>
@@ -20,7 +65,7 @@ export default function Spawtted() {
                 information about their pet and that would allow other users to report likely sightings.
             </p>
 
-            <hr/>
+            <hr />
 
             <h6>Technologies Used</h6>
             <p>
@@ -32,7 +77,7 @@ export default function Spawtted() {
 
             <h6>Challenges</h6>
             <p>
-                Deployment to Heroku gave us issues - 
+                Deployment to Heroku gave us issues -
             </p>
 
             <h6>Lessons Learned</h6>

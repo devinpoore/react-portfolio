@@ -66,10 +66,11 @@ export default function Artwave() {
                 
                 <h6>Background</h6>
                 <p>
-                    In the fall of 2017, I had the idea for a lightweight social media application that would focus, in particular, upon
-                    the ability of people to catalogue their favorite kinds of art - from all mediums - and to recommend certain pieces
-                    of art - movies, books, songs, albums, tv shows, video games, etc - directly to their friends and track that friends
-                    progress experiencing whatever you had recommended to them.
+                    In the fall of 2017, I had the idea for a lightweight social media application that would focus, narrowly, upon
+                    enabling people to catalogue &amp; interact with their favorite kinds of art - from all mediums - and to recommend certain pieces
+                    of this art - movies, books, songs, albums, tv shows, video games, etc - directly to their friends and track that friend's
+                    progress experiencing whatever you had recommended to them. Maybe you get an alert when they finish a film you'd been recommending to them
+                    for ages so you can react or check in with them and what they thought of it.
                 </p>
 
                 <p>
@@ -81,7 +82,53 @@ export default function Artwave() {
                     project loomed in the bootcamp I took this past summer, I mentioned the idea to the my partners for the project as we were
                     brainstorming what we wanted to make. They liked it and we agreed to take a stab at building it. And so, the first version of
                     ArtWave was born.
-                </p>                
+                </p>
+
+                <hr/>
+
+                <h6>Technologies Used</h6>
+                <p>
+                    Artwave was built with ReactJS, MongoDB, and Node/Express. We also utilized the
+                    <a href="https://mdbootstrap.com/" target="_blank" rel="noopener noreferrer"> Material Design for Bootstrap </a>
+                    CSS Library (Andrew really preferred this framework over plain Bootstrap)
+                </p>
+
+                <hr/>
+
+                <h6>Challenges</h6>
+                <p>
+                    There were 2 major challenges we faced during the building of Artwave that are worth addressing. The first was simply using React as
+                    our main framework for the front end work on the app. At this point, we hadn't spent too much time in class using React and had mostly
+                    been introduced to the high level concepts of how to use it.
+                </p>
+                <p>
+                    The second major challenge (and in my opinion, the primary challenge) of the project was the database setup. We knew from the get go
+                    what we 
+                </p>
+                
+                <hr/>
+
+                <h6>Lessons Learned</h6>
+                <p>
+                    Prior to this project, I don't think I'd really fancied myself a UX designer - it was a common refrain amongst us: "We're not designers". 
+                    However, working with React while using a fairly complicated database schema made me realize that good design is simply good function (a belief solidified by building this portfolio).
+                </p>
+                <p>
+                    In somewhat related fashion, I remember having the salient epiphany that all good projects are good database projects. A good database is like a 
+                    good screenplay or blueprint - it is generally the first component required to start meaningfully moving forward on a project, but it also requires a deep consideration
+                    of the nature of the final product. Artwave being a relatively complex database project (that needed to be completed relatively quickly), 
+                    it became apparent while working on it the ways in which a smartly designed database (and server for that matter) makes project development
+                    smoother and front-end prototyping easier as well. I love some good, clean data pipelines. 
+                </p>
+
+                <hr/>
+
+                <h6>Going Forward</h6>
+                <p>
+                    Considering Artwave was an idea I had several years ago and now I've actually helped to build a prototype, I definitely plan to continue tinkering with it
+                    and rebuilding certain components and routes and hopefully adding new features to get it more production grade so I can start, at the very least, using it with my
+                    friends to track our lists and recommendations to one another.
+                </p>
 
             </div>
 
