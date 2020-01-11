@@ -77,7 +77,7 @@ export default function Spawtted() {
 
             <h6>Challenges</h6>
             <p>
-                Deployment to Heroku gave us issues -
+                Deployment to Heroku gave us issues - this mostly stemmed from some lagging github merge conflicts
             </p>
 
             <h6>Lessons Learned</h6>
