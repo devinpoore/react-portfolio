@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc98c5b66bf3c42a9d3ffbc9e3ae3a1e",
+    "revision": "2c2ef0d1ed1906fcfb545a71bb35b374",
     "url": "/index.html"
   },
   {
-    "revision": "feb628e66cb204e91e4c",
-    "url": "/static/css/main.8558a83f.chunk.css"
+    "revision": "0ed2b57d26eb6ba4e81d",
+    "url": "/static/css/main.e06c44a7.chunk.css"
   },
   {
-    "revision": "7c5ad83cd32cddeb6391",
-    "url": "/static/js/2.2790e912.chunk.js"
+    "revision": "fb153979662b38819355",
+    "url": "/static/js/2.f0bffb67.chunk.js"
   },
   {
-    "revision": "feb628e66cb204e91e4c",
-    "url": "/static/js/main.54da145d.chunk.js"
+    "revision": "0ed2b57d26eb6ba4e81d",
+    "url": "/static/js/main.9253ec38.chunk.js"
   },
   {
     "revision": "6d60b4ae05f839f97de9",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ce1ed8963a896f2a5f842221f242ba7a",
     "url": "/static/media/CP_routed.ce1ed896.png"
+  },
+  {
+    "revision": "675e62ae2e0516c4882312764a5db6fe",
+    "url": "/static/media/DevinPooreResume-2.20.20.675e62ae.pdf"
   },
   {
     "revision": "75919e6dca6e803b29c34509c906983f",
