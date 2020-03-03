@@ -6,14 +6,14 @@ export default function Chorechat() {
     return (
         <div>
 
-            <div id="chorechatCarousel" class="carousel slide" data-ride="carousel">
+            <div id="chorechatCarousel" className="carousel slide" data-ride="carousel">
 
-                <ol class="carousel-indicators">
-                    <li data-target="#chorechatCarousel" data-slide-to="0" class="active"></li>
+                <ol className="carousel-indicators">
+                    <li data-target="#chorechatCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#chorechatCarousel" data-slide-to="1"></li>
                 </ol>
 
-                <div class="carousel-inner text-center">
+                <div className="carousel-inner text-center">
 
                     <div className="carousel-item active">
                         <img src={require("../../../Images/Chorechat/cc_alert.png")} alt="artwave login" />
@@ -23,14 +23,14 @@ export default function Chorechat() {
                         <img src={require("../../../Images/Chorechat/cc_response.png")} alt="artwave registration with error" />
                     </div>
 
-                    <a class="carousel-control-prev" href="#chorechatCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                    <a className="carousel-control-prev" href="#chorechatCarousel" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
                     </a>
 
-                    <a class="carousel-control-next" href="#chorechatCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                    <a className="carousel-control-next" href="#chorechatCarousel" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
                     </a>
 
                 </div>

@@ -38,3 +38,7 @@ label {
     font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.modal-dialog .modal-content {
+    border-radius: 15px;
+}

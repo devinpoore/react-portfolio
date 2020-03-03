@@ -12,16 +12,16 @@ function CommTypeSelect(props) {
             <div className="row">
 
                 <div className="col-md-6">
-                    <button id="emailBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("email")}>
-                        <p>Email</p>
-                        <i class="far fa-envelope-open"></i>
+                    <button id="smsBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("text")}>
+                        <p>SMS (preferred)</p>
+                        <i className="far fa-comment-alt"></i>
                     </button>
                 </div>
 
                 <div className="col-md-6">
-                    <button id="smsBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("text")}>
-                        <p>SMS</p>
-                        <i class="far fa-comment-alt"></i>
+                    <button id="emailBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("email")}>
+                        <p>Email</p>
+                        <i className="far fa-envelope-open"></i>
                     </button>
                 </div>
 

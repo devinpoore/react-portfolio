@@ -11,6 +11,7 @@ h1 {
   height: 85vh;
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
   margin-bottom: 15px;
+  border-radius: 15px;
 }
 
 #projectContent {
@@ -78,6 +79,7 @@ h1 {
   padding-right: 15px;
   border-top: 1px solid darkslategray;
   box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+  border-radius: 15px;
 }
 
 #insideAbout2 {
@@ -163,5 +165,5 @@ h4 {
 
 #aboutTitle {
   display: inline-block;
-  width: 80%;
+  width: 70%;
 }

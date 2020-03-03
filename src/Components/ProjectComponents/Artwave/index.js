@@ -8,10 +8,10 @@ export default function Artwave() {
 
             <div id="artwaveContent">
 
-                <div id="artwaveCarousel" class="carousel slide" data-ride="carousel">
+                <div id="artwaveCarousel" className="carousel slide" data-ride="carousel">
 
-                    <ol class="carousel-indicators">
-                        <li data-target="#artwaveCarousel" data-slide-to="0" class="active"></li>
+                    <ol className="carousel-indicators">
+                        <li data-target="#artwaveCarousel" data-slide-to="0" className="active"></li>
                         <li data-target="#artwaveCarousel" data-slide-to="1"></li>
                         <li data-target="#artwaveCarousel" data-slide-to="2"></li>
                         <li data-target="#artwaveCarousel" data-slide-to="3"></li>
@@ -20,7 +20,7 @@ export default function Artwave() {
                         <li data-target="#artwaveCarousel" data-slide-to="6"></li>
                     </ol>
 
-                    <div class="carousel-inner text-center">
+                    <div className="carousel-inner text-center">
 
                         <div className="carousel-item active">
                             <img src={require("../../../Images/Artwave/Artwave_Login.png")} alt="artwave login" />
@@ -50,13 +50,13 @@ export default function Artwave() {
                             <img src={require("../../../Images/Artwave/AW_List_View.png")} alt="artwave registration with error" />
                         </div>
 
-                        <a class="carousel-control-prev" href="#artwaveCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                        <a className="carousel-control-prev" href="#artwaveCarousel" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#artwaveCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
+                        <a className="carousel-control-next" href="#artwaveCarousel" role="button" data-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Next</span>
                         </a>
 
                     </div>
@@ -128,6 +128,10 @@ export default function Artwave() {
                     Considering Artwave was an idea I had several years ago and now I've actually helped to build a prototype, I definitely plan to continue tinkering with it
                     and rebuilding certain components and routes and hopefully adding new features to get it more production grade so I can start, at the very least, using it with my
                     friends to track our lists and recommendations to one another.
+                </p>
+
+                <p>
+                    Artwave was built quite frenetically over a period of 9 days and still lacks some core functionalities, while harboring a number of bugs. 
                 </p>
 
             </div>

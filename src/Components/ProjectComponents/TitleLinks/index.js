@@ -21,19 +21,19 @@ const TitleLinks = (props) => {
                         
                         <div style={{display: currentProject.frontGithubLink ? "inline" : "none"}}>
                             <a href={currentProject.frontGithubLink} title="Frontend Github Link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github" style={color}></i>                
+                                <i className="fab fa-github" style={color}></i>                
                             </a>
                         </div>
 
                         <div style={{display: currentProject.backGithubLink ? "inline" : "none"}}>
                             <a href={currentProject.backGithubLink} title="Backend Github Link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github" style={color}></i>                
+                                <i className="fab fa-github" style={color}></i>                
                             </a>
                         </div>
                         
                         <div style={{display: currentProject.deployedProjectLink ? "inline" : "none"}}>
                             <a href={currentProject.deployedProjectLink} title="Deployed Project Link" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-external-link-alt" style={color}></i>
+                                <i className="fas fa-external-link-alt" style={color}></i>
                             </a>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ const TitleLinks = (props) => {
                 <div className="col-md-6 text-right">
 
                     <div id="techUsedDiv">
-                        <i title="Built with HTML5" style={{display: currentProject.techUsed.indexOf("html") !== -1 ? "inline" : "none"}} class="techUsed fab fa-html5"></i>
-                        <i title="Built with ReactJS" style={{display: currentProject.techUsed.indexOf("react") !== -1 ? "inline" : "none"}} class="techUsed fab fa-react"></i>
-                        <i title="Built with JavaScript" style={{display: currentProject.techUsed.indexOf("js") !== -1 ? "inline" : "none"}} class="techUsed fab fa-js-square"></i>
-                        <i title="Built with NodeJS" style={{display: currentProject.techUsed.indexOf("node") !== -1 ? "inline" : "none"}} class="techUsed fab fa-node-js"></i>
-                        <i title="Built with Bootstrap" style={{display: currentProject.techUsed.indexOf("bootstrap") !== -1 ? "inline" : "none"}} class="techUsed fab fa-bootstrap"></i>
+                        <i title="Built with HTML5" style={{display: currentProject.techUsed.indexOf("html") !== -1 ? "inline" : "none"}} className="techUsed fab fa-html5"></i>
+                        <i title="Built with ReactJS" style={{display: currentProject.techUsed.indexOf("react") !== -1 ? "inline" : "none"}} className="techUsed fab fa-react"></i>
+                        <i title="Built with JavaScript" style={{display: currentProject.techUsed.indexOf("js") !== -1 ? "inline" : "none"}} className="techUsed fab fa-js-square"></i>
+                        <i title="Built with NodeJS" style={{display: currentProject.techUsed.indexOf("node") !== -1 ? "inline" : "none"}} className="techUsed fab fa-node-js"></i>
+                        <i title="Built with Bootstrap" style={{display: currentProject.techUsed.indexOf("bootstrap") !== -1 ? "inline" : "none"}} className="techUsed fab fa-bootstrap"></i>
                     </div>
 
                 </div>

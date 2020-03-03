@@ -18,6 +18,10 @@ import ShortBio from "./Components/ShortBio";
 import ContactModal from "./Components/ContactModal";
 import TitleLinks from "./Components/ProjectComponents/TitleLinks";
 
+// Files
+
+import pdf from "./files/DevinPooreResume-2.20.20.pdf";
+
 class App extends React.Component {
   state = {
     selected: "artwave",
@@ -118,13 +122,17 @@ class App extends React.Component {
 
               <h4 id="aboutTitle">about me</h4>
 
-                <a title="My Github" href="https://github.com/devinpoore" target="_blank" rel="noopener noreferrer">
-                  <i class="personalLink fab fa-github"></i>
-                </a>
+              <a title="View/Download Resume" href={pdf} target="_blank" rel="noopener noreferrer">
+                <i className="personalLink fas fa-file"></i>
+              </a>
 
-                <a title="My LinkedIn" href="https://www.linkedin.com/in/devinpoore" target="_blank" rel="noopener noreferrer">
-                  <i class="personalLink fab fa-linkedin"></i>
-                </a>
+              <a title="My Github" href="https://github.com/devinpoore" target="_blank" rel="noopener noreferrer">
+                <i className="personalLink fab fa-github"></i>
+              </a>
+
+              <a title="My LinkedIn" href="https://www.linkedin.com/in/devinpoore" target="_blank" rel="noopener noreferrer">
+                <i className="personalLink fab fa-linkedin"></i>
+              </a>
 
               <hr />
 
@@ -140,7 +148,7 @@ class App extends React.Component {
 
               </div>
 
-              <hr/>
+              <hr />
 
               <div id="insideAbout2">
 

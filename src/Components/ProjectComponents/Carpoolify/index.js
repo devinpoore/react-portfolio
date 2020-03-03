@@ -5,10 +5,10 @@ import "./style.css";
 export default function Carpoolify() {
     return (
         <div>
-            <div id="carpoolifyCarousel" class="carousel slide" data-ride="carousel">
+            <div id="carpoolifyCarousel" className="carousel slide" data-ride="carousel">
 
-                <ol class="carousel-indicators">
-                    <li data-target="#carpoolifyCarousel" data-slide-to="0" class="active"></li>
+                <ol className="carousel-indicators">
+                    <li data-target="#carpoolifyCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#carpoolifyCarousel" data-slide-to="1"></li>
                     <li data-target="#carpoolifyCarousel" data-slide-to="2"></li>
                     <li data-target="#carpoolifyCarousel" data-slide-to="3"></li>
@@ -17,7 +17,7 @@ export default function Carpoolify() {
                     <li data-target="#carpoolifyCarousel" data-slide-to="6"></li>
                 </ol>
 
-                <div class="carousel-inner text-center">
+                <div className="carousel-inner text-center">
 
                     <div className="carousel-item active">
                         <img src={require("../../../Images/Carpoolify/CP_login.png")} alt="artwave login" />
@@ -47,14 +47,14 @@ export default function Carpoolify() {
                         <img src={require("../../../Images/Carpoolify/CP_routed.png")} alt="artwave registration with error" />
                     </div>
 
-                    <a class="carousel-control-prev" href="#carpoolifyCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                    <a className="carousel-control-prev" href="#carpoolifyCarousel" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
                     </a>
 
-                    <a class="carousel-control-next" href="#carpoolifyCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
+                    <a className="carousel-control-next" href="#carpoolifyCarousel" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
                     </a>
 
                 </div>

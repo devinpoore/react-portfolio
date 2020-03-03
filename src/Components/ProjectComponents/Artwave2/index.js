@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TitleLinks from "../TitleLinks";
+// import TitleLinks from "../TitleLinks";
 
 export default function Artwave2() {
     return (
