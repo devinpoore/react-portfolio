@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.css";
 
-export default function Chorechat() {
+export default function Chorechat(props) {
     return (
         <div>
 
@@ -39,7 +39,7 @@ export default function Chorechat() {
 
             <hr id="underCarouselRule"/>
 
-            <h6>Background</h6>
+            <h6 style={{"color": props.themeHex}} >Background</h6>
             <p>
                 I currently live in a house with 3 other roommates and while we are all generally tidy and keep our
                 house pretty clean, we've never instituted an official chore duty roster and so there are certainly
@@ -56,7 +56,7 @@ export default function Chorechat() {
 
             <hr />
 
-            <h6>Project Description</h6>
+            <h6 style={{"color": props.themeHex}} >Project Description</h6>
             <p>
                 Compared to the other projects documented here on my portfolio, Chorechat is relatively simple and straightforward.
                 It's a purely server based application with no need for a front end. I made use of the Twilio API and found a helpful
@@ -74,7 +74,7 @@ export default function Chorechat() {
 
             <hr />
 
-            <h6>Lessons Learned</h6>
+            <h6 style={{"color": props.themeHex}} >Lessons Learned</h6>
             <p>
                 Reading through the Twilio documentation, I discovered their recommendation to make use of <a href="https://https://ngrok.com/">ngrok.com</a> to help
                 with local testing as it redirects Twilio's webhook from a live ngrok URL to your machine's local server.

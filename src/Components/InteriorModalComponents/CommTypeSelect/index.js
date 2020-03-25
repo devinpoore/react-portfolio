@@ -6,8 +6,8 @@ function CommTypeSelect(props) {
     return (
         <div>
 
-            <h4>How would you like to connect?</h4>
-            <hr />
+            <h4 id="modal-title">How would you like to connect?</h4>
+            {/* <hr /> */}
 
             <div className="row">
 

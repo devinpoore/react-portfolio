@@ -1,12 +1,16 @@
 import React from "react";
 
+// import Carousel from "../Carousel";
+
 import "./style.css";
 
-export default function Artwave() {
+export default function Artwave(props) {
     return (
         <div id="artwave">
 
             <div id="artwaveContent">
+
+                {/* <Carousel /> */}
 
                 <div id="artwaveCarousel" className="carousel slide" data-ride="carousel">
 
@@ -64,7 +68,7 @@ export default function Artwave() {
 
                 <hr id="underCarouselRule"/>
                 
-                <h6>Background</h6>
+                <h6 style={{"color": props.themeHex}} >Background</h6>
                 <p>
                     In the fall of 2017, I had the idea for a lightweight social media application that would focus, narrowly, upon
                     enabling people to catalogue &amp; interact with their favorite kinds of art - from all mediums - and to recommend certain pieces
@@ -86,7 +90,7 @@ export default function Artwave() {
 
                 <hr/>
 
-                <h6>Technologies Used</h6>
+                <h6 style={{"color": props.themeHex}} >Technologies Used</h6>
                 <p>
                     Artwave was built with ReactJS, MongoDB, and Node/Express. We also utilized the
                     <a href="https://mdbootstrap.com/" target="_blank" rel="noopener noreferrer"> Material Design for Bootstrap </a>
@@ -95,7 +99,7 @@ export default function Artwave() {
 
                 <hr/>
 
-                <h6>Challenges</h6>
+                <h6 style={{"color": props.themeHex}} >Challenges</h6>
                 <p>
                     There were 2 major challenges we faced during the building of Artwave that are worth addressing. The first was simply using React as
                     our main framework for the front end work on the app. At this point, we hadn't spent too much time in class using React and had mostly
@@ -108,7 +112,7 @@ export default function Artwave() {
                 
                 <hr/>
 
-                <h6>Lessons Learned</h6>
+                <h6 style={{"color": props.themeHex}} >Lessons Learned</h6>
                 <p>
                     Prior to this project, I don't think I'd really fancied myself a UX designer - it was a common refrain amongst us: "We're not designers". 
                     However, working with React while using a fairly complicated database schema made me realize that good design is simply good function (a belief solidified by building this portfolio).
@@ -123,7 +127,7 @@ export default function Artwave() {
 
                 <hr/>
 
-                <h6>Going Forward</h6>
+                <h6 style={{"color": props.themeHex}} >Going Forward</h6>
                 <p>
                     Considering Artwave was an idea I had several years ago and now I've actually helped to build a prototype, I definitely plan to continue tinkering with it
                     and rebuilding certain components and routes and hopefully adding new features to get it more production grade so I can start, at the very least, using it with my

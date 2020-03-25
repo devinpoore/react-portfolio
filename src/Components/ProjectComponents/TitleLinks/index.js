@@ -11,12 +11,13 @@ const TitleLinks = (props) => {
         color: currentProject.hexCode
     }
     return (
-        <div className="titleDiv">
+        // <div className="titleDiv">
 
-            <div className="row">
-                
-                <div className="col-md-6">
+            <div className="row">                
+                <div className="titleDiv col-md-12">
+
                     <span id="title" style={color}>{currentProject.title}</span>
+
                     <div className="linkIcons text-center">
                         
                         <div style={{display: currentProject.frontGithubLink ? "inline" : "none"}}>
@@ -37,9 +38,6 @@ const TitleLinks = (props) => {
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div className="col-md-6 text-right">
 
                     <div id="techUsedDiv">
                         <i title="Built with HTML5" style={{display: currentProject.techUsed.indexOf("html") !== -1 ? "inline" : "none"}} className="techUsed fab fa-html5"></i>
@@ -50,11 +48,10 @@ const TitleLinks = (props) => {
                     </div>
 
                 </div>
-
             </div>
 
-            <hr/>
-        </div>
+            // <hr/>
+        // </div>
     )
 }
 

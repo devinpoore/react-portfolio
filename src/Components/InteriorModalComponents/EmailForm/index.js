@@ -51,7 +51,7 @@ class EmailForm extends React.Component {
             <div>
                 <button id="emailBackBtn" className="btn btn-sm" onClick={() => this.state.back()}><i id="emailArrow" className="fas fa-arrow-left"></i></button>
                 <h4 id="emailHeader">Email Form</h4>
-                <hr />
+                {/* <hr /> */}
     
                 <form>
                     <div className="form-group">
@@ -73,7 +73,7 @@ class EmailForm extends React.Component {
                         <textarea name="messageBody" value={this.state.messageBody} onChange={this.handleInputChange} className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="They're taking the hobbits to Isengard!"></textarea>
                     </div>
     
-                    <button type="submit" className="btn btn-md btn-block btn-success" onClick={this.sendEmail}>Send</button>
+                    <button id="sendEmail" type="submit" className="btn btn-md btn-block" onClick={this.sendEmail}>SEND</button>
                 </form>
             </div>
         )

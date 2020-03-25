@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.css";
 
-export default function Spawtted() {
+export default function Spawtted(props) {
     return (
         <div>
             <div id="spawttedCarousel" className="carousel slide" data-ride="carousel">
@@ -58,7 +58,7 @@ export default function Spawtted() {
 
             <hr id="underCarouselRule" />
 
-            <h6>Background</h6>
+            <h6 style={{"color": props.themeHex}} >Background</h6>
             <p>
                 Spawtted was project #2 in the bootcamp. One of our group members, Monica, was responsible for the idea.
                 She wanted to build an application that could help pet owners who had lost their pets to post location based
@@ -67,7 +67,7 @@ export default function Spawtted() {
 
             <hr />
 
-            <h6>Technologies Used</h6>
+            <h6 style={{"color": props.themeHex}} >Technologies Used</h6>
             <p>
                 For this project we were able to utilize the full stack, employing Node/Express on the backend. We got our first
                 taste of HTML templating using Handlebars and used MySQL for our database
@@ -75,12 +75,12 @@ export default function Spawtted() {
 
             <hr />
 
-            <h6>Challenges</h6>
+            <h6 style={{"color": props.themeHex}} >Challenges</h6>
             <p>
                 Deployment to Heroku gave us issues - this mostly stemmed from some lagging github merge conflicts
             </p>
 
-            <h6>Lessons Learned</h6>
+            <h6 style={{"color": props.themeHex}} >Lessons Learned</h6>
             <p>
                 In the same way that I had some lightbulb moments about JSON during Carpoolify, I'd say my biggest lightbulb moment here
                 was getting really comfortable with how data moves between the front and the back end

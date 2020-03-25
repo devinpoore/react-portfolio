@@ -42,7 +42,7 @@ class SmsForm extends React.Component {
         if (this.state.messageSent) {
             return (
                 <div className="text-center">
-                    <button id="backBtn" className="btn btn-sm" onClick={() => this.state.back()}><i id="emailArrow" className="fas fa-arrow-left"></i></button>
+                    <button id="backBtn" className="btn btn-sm" onClick={() => this.state.back()}><i id="emailArrowSMS" className="fas fa-arrow-left"></i></button>
                     <h3>SMS Sent!</h3>
                     <h5>Thanks for reaching out <span role="img" aria-label="smiley-emoji">😃</span></h5>
                 </div>
@@ -53,7 +53,7 @@ class SmsForm extends React.Component {
     
                 <button id="backBtn" className="btn btn-sm" onClick={() => this.state.back()}><i className="fas fa-arrow-left"></i></button>
                 <h4 id="smsHeader">SMS Form</h4>
-                <hr />
+                {/* <hr /> */}
     
                 <form>
     
@@ -61,22 +61,22 @@ class SmsForm extends React.Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <label htmlFor="nameInput">Name</label>
-                                <input name="contactName" value={this.state.contactName} onChange={this.handleInputChange} id="nameInput" placeholder="Aragorn II, son of Arathorn"/>
+                                <input name="contactName" value={this.state.contactName} onChange={this.handleInputChange} id="nameInput" placeholder="Geralt of Rivia"/>
                             </div>
                             
                             <div className="col-md-6">
-                                <label htmlFor="smsInput">Phone #</label>
-                                <input name="smsNumber" value={this.state.smsNumber} onChange={this.handleInputChange} id="smsInput" placeholder="800-FOR-RNGR"/>
+                                <label htmlFor="smsInput">SMS Capable Phone #</label>
+                                <input name="smsNumber" value={this.state.smsNumber} onChange={this.handleInputChange} id="smsInput" placeholder="800-WHT-WOLF"/>
                             </div>
                         </div>
                     </div>
     
                     <div className="form-group">
                         <label htmlFor="exampleFormControlTextarea1">Message</label>
-                        <textarea name="messageBody" value={this.state.messageBody} onChange={this.handleInputChange} className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tis but a shadow and a thought that you love - I cannot give you what you seek..."></textarea>
+                        <textarea name="messageBody" value={this.state.messageBody} onChange={this.handleInputChange} className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hmm..."></textarea>
                     </div>
     
-                    <button type="submit" className="btn btn-md btn-block smsSend" onClick={this.sendSms}>Send</button>
+                    <button type="submit" className="btn btn-md btn-block smsSend" onClick={this.sendSms}>SEND</button>
     
                 </form>
     

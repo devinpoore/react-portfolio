@@ -1,68 +1,39 @@
 import React from 'react';
 
+import projectJSON from "../projectInfo.js";
 
+const project = projectJSON.artwave;
 
 function Carousel(props) {
     return (
         <div>
-            <div id="artwaveCarousel" class="carousel slide" data-ride="carousel">
+            {/* Eventually, this should be props.project.buttonValue */}
+            <div id={`${project.buttonValue}Carousel`} class="carousel slide" data-ride="carousel">
 
                 <ol class="carousel-indicators">
-
-                    {/* Map over the length of the image array */}
-
-                    {props.imageLinkArray.map(index => {
-                        return <li data-target="#artwaveCarousel" data-slide-to="0" class="active"></li>
+                    {project.imageLinkArray.map((image, index) => {
+                        return <li data-target={`"#${project.buttonValue}Carousel"`} data-slide-to={index} class={index === 0 ? "active" : ""}></li>
                     })}
-
-
-                    <li data-target="#artwaveCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="1"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="2"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="3"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="4"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="5"></li>
-                    <li data-target="#artwaveCarousel" data-slide-to="6"></li>
                 </ol>
 
-                <div class="carousel-inner text-center">
+                <div class="carousel-inner text-center"> 
 
-                    {/* map over the image array content */}
-                    <div className="carousel-item active">
-                        <img src={require("../../../Images/Artwave/Artwave_Login.png")} alt="artwave login" />
-                    </div>
+                    {project.imageLinkArray.map((image, index) => {
+                        const imageSrc = require(`${project.imageFilePath}${image.file}`)
+                        return (
+                            <div key={index} className={index === 0 ? "carousel-item active" : "carousel-item"}>
+                                {/* This is giving me a 'Module Not Found' error */}
+                                <img  src={imageSrc} alt={image.alt}/>
+                            </div>
+                        );
+                    })};
 
-                    {props.imageLinkArray.map()}
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/Artwave_Register_Error.png")} alt="artwave registration with error" />
-                    </div>
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/AW_Cinema_Home.png")} alt="artwave login" />
-                    </div>
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/AW_Home_w_Rec.png")} alt="artwave registration with error" />
-                    </div>
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/AW_Create_List.png")} alt="artwave login" />
-                    </div>
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/AW_Add_List.png")} alt="artwave registration with error" />
-                    </div>
-
-                    <div className="carousel-item">
-                        <img src={require("../../../Images/Artwave/AW_List_View.png")} alt="artwave registration with error" />
-                    </div>
-
-                    <a class="carousel-control-prev" href="#artwaveCarousel" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href={`#${project.buttonValue}Carousel`} role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#artwaveCarousel" role="button" data-slide="next">
+
+                    <a class="carousel-control-next" href={`#${project.buttonValue}Carousel`} role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -71,6 +42,7 @@ function Carousel(props) {
             </div>
 
             <hr id="underCarouselRule" />
+
         </div>
     )
 }

@@ -1,7 +1,7 @@
 h6 {
     text-decoration: underline;
     font-weight: 400;
-    color: darkslategray;
+    /* color: darkslategray; */
 }
 
 .bold {
@@ -11,6 +11,7 @@ h6 {
 
 #carpoolifyCarousel .carousel-inner {
     /* background-color: rgba(0, 100, 0, 0.856); */
-    background-color: rgb(56, 56, 56);
+    /* background-color: rgb(56, 56, 56); */
+    background-color: #006400;
 }
 

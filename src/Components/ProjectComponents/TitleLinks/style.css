@@ -1,8 +1,6 @@
 i {
     margin: 5px;
     font-size: 20px;
-    /* color: #912929; */
-    /* color: #802424; */
 }
 
 .linkIcons {
@@ -12,21 +10,25 @@ i {
 #title {
     font-size: 24px;
     font-weight: 400;
-    margin: 5px;
-    /* color: #802424; */
+    margin-right: 10px;
 }
 
 .techUsed {
-    /* margin-top: 10px; */
     font-size: 20px;
-    color: lightgray;
+    color: white;
 }
 
 .techUsed:hover {
-    color: gray;
+    color: darkslategray;
+}
+
+.titleDiv {
+    position: relative;
 }
 
 #techUsedDiv {
-    margin-top: 10px;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
 }
 

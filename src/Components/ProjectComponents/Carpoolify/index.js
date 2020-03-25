@@ -2,7 +2,7 @@ import React from 'react';
 
 import "./style.css";
 
-export default function Carpoolify() {
+export default function Carpoolify(props) {
     return (
         <div>
             <div id="carpoolifyCarousel" className="carousel slide" data-ride="carousel">
@@ -63,7 +63,7 @@ export default function Carpoolify() {
 
             <hr id="underCarouselRule"/>
 
-            <h6>Background</h6>
+            <h6 style={{"color": props.themeHex}} >Background</h6>
             <p>
                 Carpoolify is the result of the first group project of the UW bootcamp I attended this past summer.
                 I worked with 2 other talented developers in the class, <a href="https://www.linkedin.com/in/andrew-joung-4945b313a/" target="_blank" rel="noopener noreferrer">Andrew Joung</a> and <a href="https://www.linkedin.com/in/scott-willis-1b600a178/" target="_blank" rel="noopener noreferrer">Scott Willis</a>, to build this
@@ -86,7 +86,7 @@ export default function Carpoolify() {
 
             <hr/>
 
-            <h6>Technologies Used</h6>
+            <h6 style={{"color": props.themeHex}} >Technologies Used</h6>
             <p>
                 As a project, Carpoolify doesn't employ any server side programming as, at this point in the class, we hadn't
                 yet jumped in to <span className="bold">Node.js</span> or <span className="bold">Express</span>. The lack of a
@@ -102,7 +102,7 @@ export default function Carpoolify() {
 
             <hr/>
 
-            <h6>Challenges</h6>
+            <h6 style={{"color": props.themeHex}} >Challenges</h6>
             <p>
                 In the absence of other database solutions such as SQL or MongoDB at our disposal during this project, we opted to use
                 Google Firebase's realtime database, which proved a bit cumbersome. Perhaps it was a consequence of a relative inexperience
@@ -136,7 +136,7 @@ export default function Carpoolify() {
 
             <hr/>
 
-            <h6>Lessons Learned</h6>
+            <h6 style={{"color": props.themeHex}} >Lessons Learned</h6>
             <p>
                 First things first, I grew markedly more comfortable with JSON and the ways it can be utilized within the infrastructure of web
                 development by spending so much time in the Maps API studying sample code from Google. I've always found programming to be an
@@ -152,7 +152,7 @@ export default function Carpoolify() {
 
             <hr/>
 
-            <h6>Going Forward</h6>
+            <h6 style={{"color": props.themeHex}} >Going Forward</h6>
             <p>
                 I plan on adapting the concept of Carpoolify to a full stack application, partially as extra practice, but also because there are
                 some unique features we'd discussed including that I think I could now feasibly manage to implement. As progress is made on that front,

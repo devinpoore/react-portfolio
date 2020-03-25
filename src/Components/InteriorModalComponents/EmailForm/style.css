@@ -1,5 +1,5 @@
 .btn.btn-sm#emailBackBtn {
-    border: solid 1px #5cb85c;
+    border: solid 1px darkgreen;
     width: 80px;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -7,10 +7,15 @@
 }
 
 #emailHeader {
-    color: #5cb85c;
+    color: darkgreen;
     display: inline;
 }
 
 #emailArrow {
-    color: #5cb85c;
+    color: darkgreen;
+}
+
+.btn.btn-md#sendEmail {
+    background-color: darkgreen;
+    color: white;
 }

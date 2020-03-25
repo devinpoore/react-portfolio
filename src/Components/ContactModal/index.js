@@ -50,7 +50,7 @@ class ContactModal extends React.Component {
                             </div>
     
                             <div className="modal-footer text-center">
-                                <button id="closeBtn" className="btn btn-sm btn-dark" data-toggle="modal" data-target="#contactModal">Close</button>
+                                <button id="closeBtn" className="btn btn-sm btn-light" data-toggle="modal" data-target="#contactModal">Close</button>
                             </div>
     
                         </div>
